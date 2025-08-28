@@ -33,6 +33,7 @@ function playGame() {
   } else {
     console.log("The game is a tie!");
   }
+  console.log(`You: ${humanPoints} - Computer: ${computerPoints}`);
 }
 
 playGame();
